@@ -15,10 +15,10 @@
   pageRef = "about"
   weight = 10
 
-[[main]]
-  name = "Research"
-  pageRef = "projects"
-  weight = 20
+# [[main]]
+#   name = "Research"
+#   pageRef = "projects"
+#   weight = 20
 
 [[main]]
   name = "Blog"
@@ -41,11 +41,11 @@
   [main.params]
     action = "search"
 
-[[main]]
-  identifier = "switch"
-  weight = 99
-  [main.params]
-    action = "appearance"
+# [[main]]
+#   identifier = "switch"
+#   weight = 99
+#   [main.params]
+#     action = "appearance"
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before
