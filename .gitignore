@@ -1,0 +1,6 @@
+.DS_Store
+/public/
+/resources/
+/themes/
+.hugo_build.lock
+deploy
