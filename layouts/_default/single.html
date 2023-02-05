@@ -65,21 +65,7 @@
           {{ warnf "[CONGO] Comments are enabled for %s but no comments partial exists." .File.Path }}
         {{ end }}
       {{ end }}
+      {{ partial "article-pagination.html" . }}
     </footer>
   </article>
-  <script src="https://giscus.app/client.js"
-        data-repo="shwangcmt/mysite"
-        data-repo-id="R_kgDOI5oovw"
-        data-category="General"
-        data-category-id="DIC_kwDOI5oov84CT_dP"
-        data-mapping="title"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="bottom"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-    </script>
 {{ end }}
