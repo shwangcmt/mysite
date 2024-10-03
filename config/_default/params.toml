@@ -33,7 +33,7 @@ fingerprintAlgorithm = "sha256"
 
 [homepage]
   layout = "page" # valid options: page, profile, custom
-  showRecent = false
+  showRecent = true
   recentLimit = 3
 
 [article]
@@ -46,7 +46,7 @@ fingerprintAlgorithm = "sha256"
   # editURL = "https://github.com/username/repo/"
   editAppendPath = false
   showHeadingAnchors = false
-  showPagination = false
+  showPagination = true
   invertPagination = false
   showReadingTime = false
   showTableOfContents = true
@@ -59,9 +59,9 @@ fingerprintAlgorithm = "sha256"
   showBreadcrumbs = false
   showSummary = true
   showTableOfContents = true
-  showTaxonomies = false
+  showTaxonomies = true
   groupByYear = false
-  # paginationWidth = 0
+  paginationWidth = 0
 
 [sitemap]
   excludedKinds = ["taxonomy", "term"]
