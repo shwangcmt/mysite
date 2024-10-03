@@ -1,0 +1,6 @@
+<figure style="display: flex; flex-direction: column; align-items: center; max-width: {{ .Get "maxwidth" | default "100%" }}; margin: auto;">
+  <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" style="width: 100%; max-width: {{ .Get "maxwidth" | default "100%" }};">
+  {{ if .IsNamedParams }}
+    <figcaption style="text-align: center; font-size: {{ .Get "captionfontsize" | default "1em" }};">{{ .Get "caption" }}</figcaption>
+  {{ end }}
+</figure>
