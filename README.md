@@ -1,1 +1,1 @@
-Welcome! This repository contains configuration files of my personal website [shixiongwang.com](https:shixiongwang.com), powered by static site generator [hugo](https://gohugo.io) with [congo](https://jpanther.github.io/congo/) theme and a commenting system based on "Github Discussions" called [giscus](https://giscus.app). 
+Welcome! This repository contains configuration files of my personal website [shixiongwang.com](https://shixiongwang.com), powered by static site generator [hugo](https://gohugo.io) with [congo](https://jpanther.github.io/congo/) theme.
