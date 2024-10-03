@@ -1,23 +1,20 @@
 languageCode = "en"
 languageName = "English"
-displayName = "EN"
-isoCode = "en"
+languageDirection = "ltr"
 weight = 1
-rtl = false
 
 title = "Shi-Xiong Wang"
-description = "Things related to physics"
 # copyright = "Copy, _right?_ :thinking_face:"
-
-dateFormat = "January 2, 2006"
 
 [params]
   # mainSections = ["section1", "section2"]
+  # description = "Things related to physics"
+  dateFormat = "January 2, 2006"
 
-[author]
+[params.author]
   name = "Shi-Xiong Wang"
   image = "img/author.jpeg"
-  headline = "Things related to physics"
+  # headline = "Things related to physics"
   bio = "PhD candidate in theoretical condensed matter physics"
   links = [
     { email = "mailto:shwangcmt@gmail.com" },
@@ -32,9 +29,9 @@ dateFormat = "January 2, 2006"
   #   { facebook = "https://facebook.com/username" },
   #   { flickr = "https://www.flickr.com/photos/username/" },
   #   { foursquare = "https://foursquare.com/username" },
-    { github = "https://github.com/shwangcmt" },
+    # { github = "https://github.com/shwangcmt" },
   #   { gitlab = "https://gitlab.com/username" },
-    { google = "https://scholar.google.com/citations?user=gLWVaFQAAAAJ&hl=en" },
+    { google-scholar = "https://scholar.google.com/citations?user=gLWVaFQAAAAJ&hl=en" },
   #   { hashnode = "https://username.hashnode.dev" },
   #   { instagram = "https://instagram.com/username" },
   #   { keybase = "https://keybase.io/username" },
