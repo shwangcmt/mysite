@@ -67,7 +67,7 @@ fingerprintAlgorithm = "sha256"
   excludedKinds = ["taxonomy", "term"]
 
 [taxonomy]
-  showTermCount = false
+  showTermCount = true
 
 [fathomAnalytics]
   # site = "ABC12345"
